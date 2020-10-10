@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*O SELETOR UNIVERSAL SERVE PARA ZERAR OS PADRÕES DOS NAVEGADORES*/
+*{
+    font-family: "Noto Sans JP";
+}
+
+#container{
+    max-width: 830px;
+    margin: auto;
+    position: relative;
+}
+
+#logo{
+    width: 150px;
+    top: 15px;
+    position: relative;
+}
+
+body{
+    background-image: url(/assets/images/bolha-background.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 0px -400px;
+}
+
+.menu{
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #3D9CFF;
+    padding: 2px 20px;
+}
+
+.menu ul li a:hover{
+    background-color: #f55c2e;
+    color: white;
+    border-radius: 30px;
+}
+
+.text{
+    top: 100px;
+    left: 0px;
+}
+
+.text h1{
+    position: absolute;
+    font-weight: 400;
+    font-size: 53px;;
+    color: #281E5B;
+    margin-top: 90px;
+}
+
+.text h3{
+    position: absolute;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #3D9CFF;
+    text-transform: uppercase;
+    margin-top: 165px;
+}
+
+.text p{
+    position: absolute;
+    font-weight: 100;
+    font-size: 13px;
+    color: #3D9CFF;
+    margin-top: 210px;
+    max-width: 240px;
+    letter-spacing: 0.3px;
+}
+
+#more{
+    position: absolute;
+    text-decoration: none;
+    background-color: #f55c2e;
+    color: white;
+    border-radius: 30px;
+    margin-top: 340px;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    padding: 4px 30px;
+    left: 0px;
+}
+
+#more:hover{
+    background-color: #ff7755;
+}
+
+#pessoas{
+    max-width: 480px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+#socialMedia {
+    position: absolute;
+    left: 0px;
+    top: 490px;
+    left: 0;
+}
+
+#socialMedia ul li{
+    display: inline;
+}
+
+#socialMedia ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#socialMedia ul #instagram, #facebook, #twitter{
+    width: 25px;
+    margin-right: 25px;
+}
